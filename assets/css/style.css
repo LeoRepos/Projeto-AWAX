@@ -190,7 +190,6 @@ header {
 /*
 CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 */
-
 .section-aboutUs {
   display: flex;
 }
@@ -213,6 +212,7 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 .section-services {
   display: flex;
 }
+
 .section-service {
   flex: 1;
   text-align: center;
@@ -231,11 +231,7 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 .section-service p {
   line-height: 20px;
   color: #999;
-
 }
-
-
-
 .section-projects {
   display: flex;
   flex-direction: column;
@@ -402,4 +398,56 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 }
 .section-teamSocial a:hover {
   background-color: #865217;
+}
+.section-clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.client-discription h1 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.client-discription div {
+  font-size: 15px;
+}
+.cliente--parag {
+  margin-top: 60px;
+  text-align: center;
+  width: 690px;
+  color: #7E7E7E;
+  line-height: 21px;
+}
+.section-clients .sliders-pointers {
+  height: 20px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.section-clients .pointer {
+  width: 13px;
+  height: 13px;
+  border:2px solid #B28756;
+  border-radius: 6px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.section-clients .pointer.active {
+  background-color: #B28756;
+}
+.clients--partners {
+  width: 100vw;
+  max-width: 1140px;
+  margin: auto;
+  }
+.partners-images {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  margin-top: 30px;
+
 }
