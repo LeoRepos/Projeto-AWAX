@@ -443,9 +443,9 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   background-color: #B28756;
 }
 .clients--partners {
-  width: 100vw;
   max-width: 1140px;
   margin: auto;
+  margin-bottom: 20px;
   }
 .partners-images {
   display: flex;
@@ -455,9 +455,58 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   margin-top: 30px;
 
 }
+<<<<<<< HEAD
 .default.light.price {
   background-color: #CCC; 
 }
 .section-description.price {
   color: #999;
 }
+=======
+
+.default.light.clients {
+  background-color: rgb(248, 248, 248);
+  border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.default.light.prices {
+  background-color: rgb(248, 248, 248);
+  border-top: 1px solid rgb(233, 233, 233);  
+}
+
+.section-price-body {
+  display: flex;
+  max-width: 1500px;
+  margin:auto;
+  
+}
+.prices-options {
+  width: 280px;
+  height:350px;
+  background-color:#FFF;
+  text-align: center;
+  padding-top: 25px;
+  margin-left: 25px;
+
+}
+.container {
+  display: flex;
+  margin: auto;
+}
+.option-title {
+  font-size: 13px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.prices-options .value {
+  font-size: 25px;
+  font-weight: 700;
+  
+}
+.prices-options .month {
+  color: #999;
+  text-transform: uppercase;
+  font-size: 10px; 
+  margin-bottom: 20px;
+}
+>>>>>>> eea5bc1d87fab7fa4f572fc5ef6129ff03eaae8a
