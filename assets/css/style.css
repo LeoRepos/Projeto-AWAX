@@ -470,7 +470,7 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 }
 .prices-options {
   width: 280px;
-  height:400px;
+  height:350px;
   background-color:#FFF;
   text-align: center;
   padding-top: 25px;
@@ -480,4 +480,20 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 .container {
   display: flex;
   margin: auto;
+}
+.option-title {
+  font-size: 13px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.prices-options .value {
+  font-size: 25px;
+  font-weight: 700;
+  
+}
+.prices-options .month {
+  color: #999;
+  text-transform: uppercase;
+  font-size: 10px; 
+  margin-bottom: 20px;
 }
