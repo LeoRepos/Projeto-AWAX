@@ -440,9 +440,9 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   background-color: #B28756;
 }
 .clients--partners {
-  width: 100vw;
   max-width: 1140px;
   margin: auto;
+  margin-bottom: 20px;
   }
 .partners-images {
   display: flex;
@@ -450,4 +450,34 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   padding: 30px 0;
   margin-top: 30px;
 
+}
+
+.default.light.clients {
+  background-color: rgb(248, 248, 248);
+  border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.default.light.prices {
+  background-color: rgb(248, 248, 248);
+  border-top: 1px solid rgb(233, 233, 233);  
+}
+
+.section-price-body {
+  display: flex;
+  max-width: 1500px;
+  margin:auto;
+  
+}
+.prices-options {
+  width: 280px;
+  height:400px;
+  background-color:#FFF;
+  text-align: center;
+  padding-top: 25px;
+  margin-left: 25px;
+
+}
+.container {
+  display: flex;
+  margin: auto;
 }
