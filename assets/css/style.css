@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -14,6 +15,7 @@ header {
   background-color: #000;
   color: #FFF;
 }
+
 .header {
   max-width: 1140px;
   height: 100px;
@@ -21,27 +23,33 @@ header {
   display: flex;
   align-items: center;
 }
+
 .logoImg {
   width: 80px;
   height: 80px;
   background-color: #B28756;
   border-radius: 40px;
 }
+
 .logo {
-  width: 100px;  
+  width: 100px;
 }
+
 .menu {
   flex: 1;
   display: flex;
   justify-content: flex-end;
 }
+
 .menu ul,
 .menu li {
   list-style: none;
 }
+
 .menu ul {
   display: flex;
 }
+
 .menu li a {
   text-decoration: none;
   color: #FFFF;
@@ -53,29 +61,33 @@ header {
   align-items: center;
   border-bottom: 5px solid #000;
 }
+
 .menu li a:hover {
   border-bottom: 5px solid #B28756;
 }
 
 .banner {
-  height:calc(100vh - 100px);
+  height: calc(100vh - 100px);
   background-color: #333;
-  background-image:url('/assets/images/bg.jpg');
+  background-image: url('/assets/images/bg.jpg');
   background-size: cover;
   background-position: bottom;
   overflow: hidden;
 }
+
 .banner .sliders {
-  height:100%;
+  height: 100%;
   width: 1000vw;
 }
+
 .banner .slide {
   height: 100%;
   width: 100vw;
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.8);
 }
-.banner .slide-area{
+
+.banner .slide-area {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -88,12 +100,15 @@ header {
   font-weight: bold;
   font-size: 50px;
 }
+
 .banner h1 span {
   color: #B28756;
 }
+
 .banner h2 {
   margin-top: 10px;
 }
+
 .banner a {
   display: block;
   background-color: #B28756;
@@ -105,6 +120,7 @@ header {
   border-radius: 20px;
   margin-top: 30px;
 }
+
 .banner a:hover {
   background-color: #865217;
 }
@@ -119,15 +135,17 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .banner .pointer {
   width: 13px;
   height: 13px;
-  border:2px solid #B28756;
+  border: 2px solid #B28756;
   border-radius: 6px;
   margin-left: 5px;
   margin-right: 5px;
   cursor: pointer;
 }
+
 .banner .pointer.active {
   background-color: #B28756;
 }
@@ -136,9 +154,11 @@ header {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 .default .section-title {
   font-size: 20px;
 }
+
 .default .section-description {
   font-size: 13px;
   color: #ccc;
@@ -146,12 +166,13 @@ header {
   margin-bottom: 40px;
 }
 
-.default .section-title, 
+.default .section-title,
 .default .section-description {
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600; 
+  font-weight: 600;
 }
+
 .default .section-body {
   margin: auto;
   max-width: 1140px;
@@ -160,17 +181,21 @@ header {
 .default.light {
   background-color: #F7F7F7;
 }
+
 .default.light .section-title,
 .default.light .section-body {
   color: #000;
 }
+
 .default.dark {
   background-color: #000;
 }
+
 .default.dark .section-title,
-.default.dark .section-body{
+.default.dark .section-body {
   color: #FFF;
 }
+
 .button {
   display: inline-block;
   background-color: #B28756;
@@ -183,6 +208,7 @@ header {
   margin-top: 30px;
   text-transform: uppercase;
 }
+
 .button:hover {
   background-color: #865217;
 }
@@ -193,17 +219,21 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 .section-aboutUs {
   display: flex;
 }
+
 .section-aboutUs--left {
   flex: 1;
 }
+
 .section-aboutUs--right {
   width: 500px;
   text-align: center;
 }
+
 .section-aboutUs--right img {
   width: 480px;
   box-shadow: 0px 8px 10px #333;
 }
+
 .section-aboutUs--left p {
   font-size: 14px;
   line-height: 22px;
@@ -219,36 +249,43 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   border-right: 1px solid #333;
   padding: 10px;
 }
+
 .section-service:first-child {
-  border-left: 1px solid #333;  
+  border-left: 1px solid #333;
 }
+
 .section-service h4 {
   text-transform: uppercase;
   font-size: 16px;
   margin-top: 19px;
   margin-bottom: 5px;
 }
+
 .section-service p {
   line-height: 20px;
   color: #999;
 }
+
 .section-projects {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .section-projects--filters {
-  border:1px solid #999; 
+  border: 1px solid #999;
   background-color: #EEE;
   border-radius: 30px;
   display: inline-block;
   padding: 0px 20px;
 
 }
-.section-projects--filters ul, 
+
+.section-projects--filters ul,
 .section-projects--filters li {
   list-style: none;
 }
+
 .section-projects--filters li {
   display: inline-block;
   padding: 14px;
@@ -259,32 +296,40 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   border-bottom: 3px solid #EEE;
   cursor: pointer;
 }
+
 .section-projects--filters li:hover,
 .section-projects--filters li.active {
   border-bottom: 3px solid #865217;
 }
+
 .section-projects--filters li:first-child {
-  border-left:0;
+  border-left: 0;
 }
+
 .section-projects--photos {
   width: 100vw;
   max-width: 1140px;
   margin-top: 20px;
   display: flex;
-  flex-wrap: wrap;justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .section-projects--photo {
   width: 280px;
 }
+
 .section-projects--photoArea {
   margin: 10px;
   width: 260px;
   height: 160px;
 }
+
 .section-projects--photoArea img {
   width: inherit;
   height: inherit;
 }
+
 .section-projects--photoInfo {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
@@ -297,11 +342,13 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   align-items: center;
   color: #FFF;
 }
+
 .section-projects--photoInfo h5 {
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 10px;
-} 
+}
+
 .section-projects--photoArea:hover .section-projects--photoInfo {
   display: flex;
 }
@@ -312,29 +359,34 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   background-position: center;
   padding: 0;
 }
+
 .section-teamArea {
-  background-color: rgba(0, 0, 0, 0.8) ; 
+  background-color: rgba(0, 0, 0, 0.8);
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 .section-team {
   overflow: hidden;
   max-width: 880px;
   margin: auto;
 }
+
 .section-team .sliders {
-  height:100%;
+  height: 100%;
   width: 1000vw;
 }
+
 .section-team .slide {
   height: 100%;
   width: 280px;
   min-height: 300px;
   display: inline-block;
-  background-color:#FFF;
-  margin-right:20px;
+  background-color: #FFF;
+  margin-right: 20px;
 }
-.section-team .slide-area{
+
+.section-team .slide-area {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -351,23 +403,27 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   justify-content: center;
   align-items: center;
 }
+
 .section-teamArea .pointer {
   width: 13px;
   height: 13px;
-  border:2px solid #B28756;
+  border: 2px solid #B28756;
   border-radius: 6px;
   margin-left: 5px;
   margin-right: 5px;
   cursor: pointer;
 }
+
 .section-teamArea .pointer.active {
   background-color: #B28756;
 }
+
 .section-teamAvatar {
   width: 150px;
   height: auto;
 
 }
+
 .section-teamName {
   text-transform: uppercase;
   font-weight: 600;
@@ -375,17 +431,20 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   margin-top: 30px;
 
 }
+
 .section-teamRole {
   font-size: 13px;
   color: #999;
   margin-top: 5px;
-  
+
 }
+
 .section-teamSocial {
   display: flex;
   margin-top: 20px;
-   
+
 }
+
 .section-teamSocial a {
   display: inline-flex;
   align-items: center;
@@ -396,26 +455,32 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   border-radius: 13px;
   margin-right: 10px;
 }
+
 .section-teamSocial a:hover {
   background-color: #865217;
 }
+
 .default.light.clients {
   background-color: rgb(246, 242, 242);
 }
+
 .section-clients {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .client-discription h1 {
   margin-top: 25px;
   margin-bottom: 10px;
   text-align: center;
 }
+
 .client-discription div {
   font-size: 15px;
 }
+
 .cliente--parag {
   margin-top: 60px;
   text-align: center;
@@ -423,6 +488,7 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   color: #7E7E7E;
   line-height: 21px;
 }
+
 .section-clients .sliders-pointers {
   height: 20px;
   display: flex;
@@ -430,23 +496,27 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   justify-content: center;
   align-items: center;
 }
+
 .section-clients .pointer {
   width: 13px;
   height: 13px;
-  border:2px solid #B28756;
+  border: 2px solid #B28756;
   border-radius: 6px;
   margin-left: 5px;
   margin-right: 5px;
   cursor: pointer;
 }
+
 .section-clients .pointer.active {
   background-color: #B28756;
 }
+
 .clients--partners {
   max-width: 1140px;
   margin: auto;
   margin-bottom: 20px;
-  }
+}
+
 .partners-images {
   display: flex;
   justify-content: space-around;
@@ -455,14 +525,14 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   margin-top: 30px;
 
 }
-<<<<<<< HEAD
+
 .default.light.price {
-  background-color: #CCC; 
+  background-color: #CCC;
 }
+
 .section-description.price {
   color: #999;
 }
-=======
 
 .default.light.clients {
   background-color: rgb(248, 248, 248);
@@ -471,42 +541,147 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 
 .default.light.prices {
   background-color: rgb(248, 248, 248);
-  border-top: 1px solid rgb(233, 233, 233);  
+  border-top: 1px solid rgb(233, 233, 233);
 }
 
 .section-price-body {
   display: flex;
-  max-width: 1500px;
-  margin:auto;
-  
-}
-.prices-options {
-  width: 280px;
-  height:350px;
-  background-color:#FFF;
-  text-align: center;
-  padding-top: 25px;
-  margin-left: 25px;
+  max-width: 1140px;
+  margin: auto;
 
 }
+
+.prices-options {
+  width: 250px;
+  height: 350px;
+  background-color: #FFF;
+  text-align: center;
+  padding-top: 25px;
+  margin-left: 20px;
+
+}
+
 .container {
   display: flex;
   margin: auto;
+  width: inherit;
 }
+
 .option-title {
   font-size: 13px;
   margin-bottom: 15px;
-  font-weight: 600;
+  font-weight: 900;
 }
+
 .prices-options .value {
   font-size: 25px;
   font-weight: 700;
-  
+
 }
+
 .prices-options .month {
   color: #999;
   text-transform: uppercase;
-  font-size: 10px; 
+  font-size: 10px;
   margin-bottom: 20px;
 }
->>>>>>> eea5bc1d87fab7fa4f572fc5ef6129ff03eaae8a
+
+.button-prices {
+  display: inline-block;
+  background-color: #383838;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.button-prices:hover {
+  background-color: #865217;
+}
+
+.prices-desc {
+  color: #999;
+}
+
+.default-light-premium {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-title-premium {
+  font-size: 20px;
+}
+
+.section-description-premium {
+  font-size: 13px;
+  color: #ccc;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.section-title-premium,
+.section-description-premium {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.default .section-body {
+  margin: auto;
+  max-width: 1140px;
+}
+
+.default.light {
+  background-color: #F7F7F7;
+}
+
+.default.light .section-title,
+.default.light .section-body {
+  color: #000;
+}
+
+.default.dark {
+  background-color: #000;
+}
+
+.default.dark .section-title,
+.default.dark .section-body {
+  color: #FFF;
+}
+
+.container-premium {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.e-book {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.e-book img {}
+
+.features {
+  flex: 1;
+  margin-top: 20px;
+  display: flex;
+}
+
+.features .check {
+  margin-right: 20px;
+}
+
+.teature-title {
+  text-transform: uppercase;
+}
+
+.feature-parag {
+  line-height: 25px;
+  color: #999;
+}
