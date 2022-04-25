@@ -671,13 +671,21 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   flex: 1;
   margin-top: 20px;
   display: flex;
+  flex-direction: column;
+}
+
+.features-1,
+.features-2,
+.features-3 {
+  display: flex;
+  margin-bottom: 30px;
 }
 
 .features .check {
   margin-right: 20px;
 }
 
-.teature-title {
+.feature-title {
   text-transform: uppercase;
 }
 
