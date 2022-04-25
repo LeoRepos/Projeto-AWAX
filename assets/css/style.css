@@ -600,7 +600,7 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 }
 
 .button-prices:hover {
-  background-color: #865217;
+  background-color: #B28756;
 }
 
 .prices-desc {
@@ -665,11 +665,10 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   justify-content: center;
 }
 
-.e-book img {}
-
 .features {
   flex: 1;
   margin-top: 20px;
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
 }
@@ -679,17 +678,34 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 .features-3 {
   display: flex;
   margin-bottom: 30px;
+=======
+  display: flex; 
+>>>>>>> 1c95bda7f567959bd08782243dab2586a4e4221d
 }
 
-.features .check {
+.first-features .first-check {
   margin-right: 20px;
+  height: 40px;
+}
+.first-feature img {
+  margin-right: 20px;
+  height: auto;  
 }
 
+<<<<<<< HEAD
 .feature-title {
+=======
+.first-feature-title {
+>>>>>>> 1c95bda7f567959bd08782243dab2586a4e4221d
   text-transform: uppercase;
 }
 
-.feature-parag {
+.first-feature-parag {
   line-height: 25px;
   color: #999;
+  margin-bottom: 20px;
 }
+.second-feature{
+  display: flex;
+}
+
