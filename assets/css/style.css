@@ -668,7 +668,6 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 .features {
   flex: 1;
   margin-top: 20px;
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
 }
@@ -678,9 +677,7 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 .features-3 {
   display: flex;
   margin-bottom: 30px;
-=======
   display: flex; 
->>>>>>> 1c95bda7f567959bd08782243dab2586a4e4221d
 }
 
 .first-features .first-check {
@@ -692,11 +689,7 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   height: auto;  
 }
 
-<<<<<<< HEAD
 .feature-title {
-=======
-.first-feature-title {
->>>>>>> 1c95bda7f567959bd08782243dab2586a4e4221d
   text-transform: uppercase;
 }
 
