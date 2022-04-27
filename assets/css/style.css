@@ -677,10 +677,9 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 .features-3 {
   display: flex;
   margin-bottom: 30px;
-  display: flex; 
 }
 
-.first-features .first-check {
+.features .check {
   margin-right: 20px;
   height: 40px;
 }
@@ -693,12 +692,21 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   text-transform: uppercase;
 }
 
-.first-feature-parag {
+.feature-parag {
   line-height: 25px;
   color: #999;
   margin-bottom: 20px;
 }
-.second-feature{
+.footer-premium {
   display: flex;
+  max-width: 1140px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  flex-direction: column;
 }
-
+.footer-premium-pointers {
+  border-top: 1px solid rgb(230, 221, 221);
+  width: 100%;
+}
