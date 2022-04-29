@@ -597,6 +597,7 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   border-radius: 20px;
   margin-top: 30px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .button-prices:hover {
@@ -705,8 +706,49 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
   justify-content: center;
   height: auto;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 .footer-premium-pointers {
   border-top: 1px solid rgb(230, 221, 221);
   width: 100%;
+}
+.premium-pointer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.premium-pointer .pointers {
+  width: 13px;
+  height: 13px;
+  border: 2px solid #B28756;
+  border-radius: 6px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.premium-pointer .pointers.active {
+  background-color: #B28756;
+}
+.premium-pointer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.footer-btn {
+  display: inline-block;
+  background-color: #B28756;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.footer-btn:hover {
+  background-color: #aa6920;
 }
