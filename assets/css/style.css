@@ -731,10 +731,12 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 .premium-pointer .pointers.active {
   background-color: #B28756;
 }
+
 .premium-pointer {
   margin-top: 25px;
   margin-bottom: 25px;
 }
+
 .footer-btn {
   display: inline-block;
   background-color: #B28756;
@@ -750,5 +752,186 @@ CSS DE ÁREAS ESPECÍFICAS DO PROJETO
 }
 
 .footer-btn:hover {
+  background-color: #aa6920;
+}
+
+.section-some-facts {
+  display: flex;
+}
+
+.some-facts {
+  flex: 1;
+  text-align: center;
+}
+
+.some-facts h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #B28756;
+}
+
+.some-facts p {
+  line-height: 20px;
+  color: #999;
+  margin-top: 15px;  
+}
+
+.section-some-facts h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.traco {
+  width: 20px;
+  height: 3px;
+  background-color: #999;
+  margin-left: 130px;
+  margin-bottom: 10px;
+
+}
+.section-about-us {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid #e6e6e6;
+}
+.tell-about {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tell-about h4 {
+  color: rgb(179, 179, 179);
+  text-transform: uppercase;  
+  margin-right: 30px;
+}
+.tell-about img {
+  margin-right: 15px
+}
+.about-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-social-img-twitter,
+.about-social-img-linkedin,
+.about-social-img-facebook,
+.about-social-img-google,
+.about-social-img-pinterest
+{
+  display: flex;
+  margin-left: 30px;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.about-social-img-twitter {
+  background-color: rgb(99, 204, 245);
+}
+.about-social-img-linkedin {
+  background-color: rgba(21, 66, 189, 0.808);
+}
+.about-social-img-facebook {
+  background-color: rgba(47, 64, 119, 0.993);
+}
+.about-social-img-google {
+  background-color: rgb(235, 57, 57);
+}
+.about-social-img-pinterest {
+  background-color: rgb(175, 10, 10);
+}
+.share-count {
+  font-size: 10px;
+  margin-left: 5px;
+  color: rgb(179, 179, 179);
+  font-weight: bold;
+}
+.contact-us {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1140px;
+}
+
+.contact-us-title{
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact-us-description {
+  font-size: 13px;
+  color: rgb(190, 182, 182);
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.contact-imput {
+  height: inherit;
+  width: 50%;
+}
+.imput-name,
+.imput-email,
+.imput-subject,
+.imput-message {
+  text-transform: uppercase;
+  color: rgb(190, 182, 182);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.imput-name {
+  border-bottom: 2px solid rgb(202, 199, 199);
+  width: 40%;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+.imput-email {
+  border-bottom: 2px solid rgb(202, 199, 199);
+  width: 40%;
+  padding-bottom: 10px;
+}
+.imput-dados {
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 35px;
+}
+.imput-subject {
+  border-bottom: 2px solid rgb(202, 199, 199);
+  width: 84%;
+  margin-bottom: 70px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
+.imput-message {
+  border-bottom: 2px solid rgb(202, 199, 199);
+  width: 84%;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
+.contact-button {
+  display: inline-block;
+  background-color: #B28756;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.contact-button:hover {
   background-color: #aa6920;
 }
